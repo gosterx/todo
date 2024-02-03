@@ -1,0 +1,6 @@
+CREATE TABLE todos (
+    id VARCHAR(36) PRIMARY KEY NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    status VARCHAR(255) NOT NULL,
+    issued_at DATETIME NOT NULL
+);
